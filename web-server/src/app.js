@@ -1,7 +1,6 @@
 //TANER SOLAK
 const express = require("express")
 const fs = require("fs")
-const user = require("./utils/user.js")
 const app = express()
 const path = require("path");
 

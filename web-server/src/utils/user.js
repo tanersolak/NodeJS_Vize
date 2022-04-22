@@ -1,7 +1,7 @@
 const fs = require("fs")
 
 
-const getJson=() =>{
+const getJson = () => {
     try {
         const dataBuffer = fs.readFileSync("./public/isim.json")
         const dataBufferString = dataBuffer.toString()
@@ -15,6 +15,6 @@ const getJson=() =>{
     }
 }
 
-module.exports={
-    getJson:getJson
+module.exports = {
+    getJson: getJson
 }
